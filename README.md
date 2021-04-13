@@ -1,12 +1,16 @@
 
 ### 安装配置
 #### 安装依赖库
-1. 安装python3
+1. 安装python3    
+   centos eg:   
+   `sudo yum install python3`   
+   如果后续安装依赖出错 尝试安装 python3-devel    
+   `sudo yum install python3-devel`
 2. 安装web3 
-   `$ sudo pip3 install web3`
+   `$  pip3 install web3`
 3. 安装jsonrpc   
-   `$ sudo pip3 install json-rpc`
-   `$ sudo pip3 install Werkzeug`
+   `$  pip3 install json-rpc`
+   `$  pip3 install Werkzeug`
 
 #### 启动
    * 实例：
